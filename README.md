@@ -64,7 +64,8 @@ El proyecto está organizado en las siguientes capas y carpetas principales:
 <img width="1217" height="468" alt="image" src="https://github.com/user-attachments/assets/1b7239a9-ba1c-404d-8826-9a5465d53559" />
 
 \###  Formulario para Registrar Nuevo Estudiante
-<img width="1356" height="674" alt="image" src="https://github.com/user-attachments/assets/06507d88-aa4b-4554-81c2-a52296a7e832" />
+<img width="1343" height="671" alt="image" src="https://github.com/user-attachments/assets/2476d03b-c3b5-4716-b03f-70a162ad4e78" />
+
 
 ## 📚 Actividad Complementaria (Extensión del Taller)
 - **Modelo Asignatura:** Implementado con las propiedades `Codigo`, `Nombre`, `Creditos` y `Nivel`.
