@@ -67,8 +67,14 @@ El proyecto está organizado en las siguientes capas y carpetas principales:
 <img width="1356" height="674" alt="image" src="https://github.com/user-attachments/assets/06507d88-aa4b-4554-81c2-a52296a7e832" />
 
 ## 📚 Actividad Complementaria (Extensión del Taller)
-- **Modelo Asignatura:** Implementado con las propiedades `Id`, `Codigo`, `Nombre`, `Creditos` y `Nivel`.
+- **Modelo Asignatura:** Implementado con las propiedades `Codigo`, `Nombre`, `Creditos` y `Nivel`.
+  <img width="1309" height="379" alt="image" src="https://github.com/user-attachments/assets/d0f623be-b0b2-4da0-88ae-4aaf853ac114" />
+<img width="848" height="480" alt="image" src="https://github.com/user-attachments/assets/2b50d485-ba84-4bc5-b505-815ad9f4669f" />
+
 - **Relación Muchos a Muchos:** Configurada entre `Estudiante` y `Asignatura` mediante la entidad intermedia `Matricula`.
+  <img width="1257" height="429" alt="image" src="https://github.com/user-attachments/assets/c70a8ab0-c729-416c-bcca-020146255c86" />
+  <img width="753" height="301" alt="image" src="https://github.com/user-attachments/assets/d54d87ea-3b7b-40c3-9c2e-7169d44f2f1f" />
+
 - **Migración aplicada:** `AgregarMatriculas` ejecutada y reflejada en SQL Server mediante `dotnet ef database update`.
 
 <img width="728" height="257" alt="image" src="https://github.com/user-attachments/assets/57157d31-1ee2-458d-affd-eef8db42380a" />
