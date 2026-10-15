@@ -62,7 +62,10 @@ El proyecto está organizado en las siguientes capas y carpetas principales:
 
 \### Listado y Gestión de Estudiantes
 
-!\[Listado de Estudiantes](img/listado\_estudiantes.png)
+<img width="1217" height="468" alt="image" src="https://github.com/user-attachments/assets/1b7239a9-ba1c-404d-8826-9a5465d53559" />
+
+\###  Formulario para Registrar Nuevo Estudiante
+<img width="1356" height="674" alt="image" src="https://github.com/user-attachments/assets/06507d88-aa4b-4554-81c2-a52296a7e832" />
 
 
 
