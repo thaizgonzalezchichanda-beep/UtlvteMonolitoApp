@@ -32,7 +32,8 @@ namespace UtlvteMonolito.Web.Migrations
 
                     b.Property<string>("Codigo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.Property<int>("Creditos")
                         .HasColumnType("int");
@@ -43,11 +44,12 @@ namespace UtlvteMonolito.Web.Migrations
 
                     b.Property<string>("Nombre")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Asignatura");
+                    b.ToTable("Asignaturas");
                 });
 
             modelBuilder.Entity("UtlvteMonolito.Web.Models.Estudiante", b =>
@@ -118,7 +120,7 @@ namespace UtlvteMonolito.Web.Migrations
 
                     b.HasIndex("EstudianteId");
 
-                    b.ToTable("Matricula");
+                    b.ToTable("Matriculas");
                 });
 
             modelBuilder.Entity("UtlvteMonolito.Web.Models.Matricula", b =>

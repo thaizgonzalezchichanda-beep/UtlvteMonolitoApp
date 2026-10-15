@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UtlvteMonolito.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fe80c5aba8599997d83cc9dcaa27a77f9ee947f")]
 [assembly: System.Reflection.AssemblyProductAttribute("UtlvteMonolito.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UtlvteMonolito.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -202,3 +202,4 @@ C:\UtlvteMonolitoApp\UtlvteMonolito.Web\obj\Debug\net10.0\refint\UtlvteMonolito.
 C:\UtlvteMonolitoApp\UtlvteMonolito.Web\obj\Debug\net10.0\UtlvteMonolito.Web.pdb
 C:\UtlvteMonolitoApp\UtlvteMonolito.Web\obj\Debug\net10.0\UtlvteMonolito.Web.genruntimeconfig.cache
 C:\UtlvteMonolitoApp\UtlvteMonolito.Web\obj\Debug\net10.0\ref\UtlvteMonolito.Web.dll
+C:\UtlvteMonolitoApp\UtlvteMonolito.Web\obj\Debug\net10.0\UtlvteMonolito.Web.sourcelink.json

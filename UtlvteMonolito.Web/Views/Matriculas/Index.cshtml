@@ -1,0 +1,30 @@
+@model IEnumerable<UtlvteMonolito.Web.Models.Matricula>
+@{
+    ViewData["Title"] = "Gestión de Matrículas - UTLVTE";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Listado de Matrículas</h2>
+        <a asp-action="Crear" class="btn btn-primary">+ Registrar Nueva Matrícula</a>
+    </div>
+    <table class="table table-striped table-hover shadow-sm">
+        <thead class="table-dark">
+            <tr>
+                <th>Estudiante</th>
+                <th>Asignatura</th>
+                <th>Fecha de Matrícula</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@(item.Estudiante?.Nombres ?? "N/A")</td>
+                    <td>@(item.Asignatura?.Nombre ?? "N/A")</td>
+                    <td>@item.FechaMatricula.ToString("yyyy-MM-dd HH:mm")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,34 @@
+@model UtlvteMonolito.Web.Models.Matricula
+@{
+    ViewData["Title"] = "Registrar Matrícula - UTLVTE";
+}
+
+<div class="container mt-4">
+    <h2>Registrar Nueva Matrícula</h2>
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Crear">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="mb-3">
+                    <label asp-for="EstudianteId" class="control-label">Estudiante</label>
+                    <select asp-for="EstudianteId" class="form-control" asp-items="ViewBag.EstudianteId">
+                        <option value="">-- Seleccione un Estudiante --</option>
+                    </select>
+                    <span asp-validation-for="EstudianteId" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="AsignaturaId" class="control-label">Asignatura</label>
+                    <select asp-for="AsignaturaId" class="form-control" asp-items="ViewBag.AsignaturaId">
+                        <option value="">-- Seleccione una Asignatura --</option>
+                    </select>
+                    <span asp-validation-for="AsignaturaId" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-success">Guardar Matrícula</button>
+                    <a asp-action="Index" class="btn btn-secondary">Volver al Listado</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
