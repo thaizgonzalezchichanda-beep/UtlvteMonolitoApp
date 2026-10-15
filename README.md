@@ -74,8 +74,7 @@ El proyecto está organizado en las siguientes capas y carpetas principales:
 <img width="728" height="257" alt="image" src="https://github.com/user-attachments/assets/57157d31-1ee2-458d-affd-eef8db42380a" />
 <img width="721" height="290" alt="image" src="https://github.com/user-attachments/assets/14c56a82-03ef-4edc-b0d8-0afe2132b3e0" />
 
-### 📊 Evidencia de la Migración y Extensión
-<img width="719" height="358" alt="image" src="https://github.com/user-attachments/assets/860a83ae-6f03-4c64-a191-334f10b4ba32" />
+
 
 
 
