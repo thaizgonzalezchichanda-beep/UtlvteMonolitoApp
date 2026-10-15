@@ -1,0 +1,54 @@
+@model UtlvteMonolito.Web.Models.Estudiante
+
+@{
+    ViewData["Title"] = "Registrar Estudiante";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">Registrar Nuevo Estudiante</h2>
+
+    <form asp-action="Crear">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Cedula" class="control-label">Cédula</label>
+            <input asp-for="Cedula" class="form-control" />
+            <span asp-validation-for="Cedula" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Nombres" class="control-label">Nombres</label>
+            <input asp-for="Nombres" class="form-control" />
+            <span asp-validation-for="Nombres" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Apellidos" class="control-label">Apellidos</label>
+            <input asp-for="Apellidos" class="form-control" />
+            <span asp-validation-for="Apellidos" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="CorreoInstitucional" class="control-label">Correo Institucional</label>
+            <input asp-for="CorreoInstitucional" class="form-control" />
+            <span asp-validation-for="CorreoInstitucional" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Carrera" class="control-label">Carrera</label>
+            <input asp-for="Carrera" class="form-control" />
+            <span asp-validation-for="Carrera" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3 form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" asp-for="EstadoActivo" checked /> Activo
+            </label>
+        </div>
+
+        <div class="form-group mt-3">
+            <input type="submit" value="Guardar Estudiante" class="btn btn-success" />
+            <a asp-action="Index" class="btn btn-secondary">Volver al Listado</a>
+        </div>
+    </form>
+</div>
