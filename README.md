@@ -48,8 +48,6 @@ El proyecto está organizado en las siguientes capas y carpetas principales:
 
 
 
-\*(Aquí puedes insertar o adjuntar una captura de pantalla de la estructura de carpetas de tu proyecto en Visual Studio / Explorador)\*
-
 
 
 \---
